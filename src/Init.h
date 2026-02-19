@@ -1,10 +1,18 @@
 //
-// Created by looogze on 2026/2/19.
+// Created by loogze on 2026/2/19.
 //
 
 #ifndef UNTITLED_INIT_H
 #define UNTITLED_INIT_H
 
+#define NTP1  "ntp1.aliyun.com"
+#define NTP2  "ntp2.aliyun.com"
+#define NTP3  "ntp3.aliyun.com"
+#define FONT u8g2_font_wqy12_t_chinese2
+#define ON_BOARD_LED 48
+
+constexpr auto ssid = "TP-link_A67A";
+constexpr auto passwd = "0852wppu,.";
 
 inline void Init_System() {
     Serial.begin(9600);
@@ -26,10 +34,10 @@ inline void Init_Senser() {
 }
 
 inline void Init_Wifi() {
-    WiFi.mode(WIFI_STA);
+    WiFiClass::mode(WIFI_STA);
     WiFi.begin(ssid, passwd);
     Serial.printf("Connecting");
-    while (WiFi.status() != WL_CONNECTED) {
+    while (WiFiClass::status() != WL_CONNECTED) {
         delay(500);
         Serial.print(".");
     }
@@ -46,7 +54,7 @@ inline void Init_Display() {
 inline void Init_Time() {
     time_t now;
     char strftime_buf[64];
-    struct tm timeinfo;
+    struct tm timeinfo{};
 
     time(&now);
     // 将时区设置为中国标准时间
@@ -56,15 +64,5 @@ inline void Init_Time() {
     localtime_r(&now, &timeinfo);
     strftime(strftime_buf, sizeof(strftime_buf), "%c", &timeinfo);
     ESP_LOGI(TAG, "The current date/time in Shanghai is: %s", strftime_buf);  //时间的分辨率为 1S
-
 }
-
-inline tm updateClock() {
-    struct tm timeinfo{};
-    getLocalTime(&timeinfo);
-    Serial.println("FetchingTime");
-    configTime(8 * 3600, 0, NTP1, NTP2,NTP3);
-    return timeinfo;
-}
-
 #endif //UNTITLED_INIT_H

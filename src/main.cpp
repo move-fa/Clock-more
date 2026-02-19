@@ -4,7 +4,6 @@
 #include <Adafruit_BMP280.h>
 #include <Adafruit_AHTX0.h>
 #include <WiFi.h>
-#include <WiFiUdp.h>
 #include <TimeLib.h>
 
 #include "TimeDisplay.h"
@@ -13,23 +12,17 @@ U8G2_SSD1306_128X32_UNIVISION_F_HW_I2C u8g2(U8G2_R2);
 Adafruit_BMP280 bmp;
 Adafruit_AHTX0 aht;
 
-constexpr auto ssid = "TP-link_A67A";
-constexpr auto passwd = "0852wppu,.";
-
-#define FONT u8g2_font_wqy12_t_chinese2
-#define ON_BOARD_LED 48
-
-#define NTP1  "ntp1.aliyun.com"
-#define NTP2  "ntp2.aliyun.com"
-#define NTP3  "ntp3.aliyun.com"
-
 #include "Init.h"
-
-
 
 sensors_event_t humidity, temp;
 
-struct tm current_time;
+tm updateClock() {
+    struct tm timeinfo{};
+    getLocalTime(&timeinfo);
+    Serial.println("FetchingTime");
+    configTime(8 * 3600, 0, NTP1, NTP2,NTP3);
+    return timeinfo;
+}
 
 void oled_Display() {
     u8g2.clearBuffer();
