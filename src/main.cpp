@@ -7,12 +7,14 @@
 #include <WiFiUdp.h>
 #include <TimeLib.h>
 
+#include "TimeDisplay.h"
+
 U8G2_SSD1306_128X32_UNIVISION_F_HW_I2C u8g2(U8G2_R2);
 Adafruit_BMP280 bmp;
 Adafruit_AHTX0 aht;
 
-auto ssid = "TP-link_A67A";
-auto passwd = "0852wppu,.";
+constexpr auto ssid = "TP-link_A67A";
+constexpr auto passwd = "0852wppu,.";
 
 #define FONT u8g2_font_wqy12_t_chinese2
 #define ON_BOARD_LED 48
@@ -57,13 +59,16 @@ void setup() {
 void loop() {
     aht.getEvent(&humidity, &temp); // 获取湿度
 
-    static unsigned long lastNtpUpdate = 0;
+    static unsigned long lastNtpUpdate,LastsegUpdate = 0;
     unsigned long now = millis();
     if (now - lastNtpUpdate >= 60000) {
         updateClock();
         lastNtpUpdate = now;
     }
-
+    if (now-LastsegUpdate >= 10) {
+        seg_display();
+        LastsegUpdate = now;
+    }
 
     oled_Display();//渲染屏幕
 
