@@ -1,0 +1,420 @@
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/.clang-format
+/.pio/libdeps/esp32-s3-devkitm-1/NTPClient/.codespellrc
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit AHTX0/.gitignore
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BMP280 Library/.gitignore
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/.gitignore
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit SH110X/.gitignore
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit Unified Sensor/.gitignore
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit AHTX0/.piopm
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BMP280 Library/.piopm
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/.piopm
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/.piopm
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit SH110X/.piopm
+/.pio/libdeps/esp32-s3-devkitm-1/NTPClient/.piopm
+/.pio/libdeps/esp32-s3-devkitm-1/Time/.piopm
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/.piopm
+/.pio/build/esp32-s3-devkitm-1/.sconsign313.dblite
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/examples/genericdevice_uartregtest/.uno.test.skip
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/examples/genericdevice_uarttest/.uno.test.skip
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/u8x8/16x16Font/16x16Font.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/A2Printer/A2Printer.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit AHTX0/examples/adafruit_aht_test/adafruit_aht_test.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit AHTX0/examples/adafruit_aht_unifiedsensors/adafruit_aht_unifiedsensors.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit AHTX0/Adafruit_AHTX0.cpp
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit AHTX0/Adafruit_AHTX0.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BMP280 Library/Adafruit_BMP280.cpp
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BMP280 Library/Adafruit_BMP280.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/Adafruit_BusIO_Register.cpp
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/Adafruit_BusIO_Register.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/Adafruit_GenericDevice.cpp
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/Adafruit_GenericDevice.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Adafruit_GFX.cpp
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Adafruit_GFX.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Adafruit_GrayOLED.cpp
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Adafruit_GrayOLED.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/Adafruit_I2CDevice.cpp
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/Adafruit_I2CDevice.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/Adafruit_I2CRegister.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit Unified Sensor/Adafruit_Sensor.cpp
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit Unified Sensor/Adafruit_Sensor.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit SH110X/Adafruit_SH110X.cpp
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit SH110X/Adafruit_SH110X.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit SH110X/Adafruit_SH1106G.cpp
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit SH110X/Adafruit_SH1107.cpp
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/Adafruit_SPIDevice.cpp
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/Adafruit_SPIDevice.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Adafruit_SPITFT.cpp
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Adafruit_SPITFT.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Adafruit_SPITFT_Macros.h
+/.pio/libdeps/esp32-s3-devkitm-1/NTPClient/examples/Advanced/Advanced.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit AHTX0/examples/aht20_oleddemo/aht20_oleddemo.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/u8x8/ArduboyTest/ArduboyTest.ino
+/.pio/libdeps/esp32-s3-devkitm-1/NTPClient/examples/Basic/Basic.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/fontconvert/bdf2adafruit.py
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BMP280 Library/examples/bmp280_forced/bmp280_forced.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BMP280 Library/examples/bmp280_sensortest/bmp280_sensortest.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BMP280 Library/examples/bmp280test/bmp280test.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/ButtonEmoticon/ButtonEmoticon.ino
+/.pio/libdeps/esp32-s3-devkitm-1/NTPClient/CHANGELOG
+/.pio/libdeps/esp32-s3-devkitm-1/NTPClient/.github/workflows/check-arduino.yml
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/Chinese/Chinese.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/ClipWindow/ClipWindow.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/Clock/Clock.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/CMakeLists.txt
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/CMakeLists.txt
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/CMakeLists.txt
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit AHTX0/code-of-conduct.md
+/.pio/libdeps/esp32-s3-devkitm-1/NTPClient/.github/workflows/compile-examples.yml
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/component.mk
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/component.mk
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/ContrastTest/ContrastTest.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Time/DateStrings.cpp
+/.pio/libdeps/esp32-s3-devkitm-1/NTPClient/.github/dependabot.yml
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/Devanagari/Devanagari.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/DirectAccess/DirectAccess.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/DrawLog/DrawLog.ino
+/.idea/editor.xml
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/ExtUTF8/ExtUTF8.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/FlipMode/FlipMode.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/u8x8/FlipMode/FlipMode.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/fontconvert/fontconvert.c
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/fontconvert/fontconvert_win.md
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/full_buffer/FontUsage/FontUsage.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/full_buffer/FPS/FPS.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/FPS/FPS.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeMono9pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeMono12pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeMono18pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeMono24pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeMonoBold9pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeMonoBold12pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeMonoBold18pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeMonoBold24pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeMonoBoldOblique9pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeMonoBoldOblique12pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeMonoBoldOblique18pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeMonoBoldOblique24pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeMonoOblique9pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeMonoOblique12pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeMonoOblique18pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeMonoOblique24pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSans9pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSans12pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSans18pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSans24pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSansBold9pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSansBold12pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSansBold18pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSansBold24pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSansBoldOblique9pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSansBoldOblique12pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSansBoldOblique18pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSansBoldOblique24pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSansOblique9pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSansOblique12pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSansOblique18pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSansOblique24pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSerif9pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSerif12pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSerif18pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSerif24pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSerifBold9pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSerifBold12pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSerifBold18pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSerifBold24pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSerifBoldItalic9pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSerifBoldItalic12pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSerifBoldItalic18pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSerifBoldItalic24pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSerifItalic9pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSerifItalic12pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSerifItalic18pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/FreeSerifItalic24pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/examples/genericdevice_uartregtest/genericdevice_uartregtest.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/examples/genericdevice_uarttest/genericdevice_uarttest.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/examples/GFXcanvas/GFXcanvas.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/examples/GFXcanvas/GFXcanvasSerialDemo.cpp
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/examples/GFXcanvas/GFXcanvasSerialDemo.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/gfxfont.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit AHTX0/.github/workflows/githubci.yml
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BMP280 Library/.github/workflows/githubci.yml
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/.github/workflows/githubci.yml
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/.github/workflows/githubci.yml
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit SH110X/.github/workflows/githubci.yml
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/glcdfont.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/full_buffer/GraphicsTest/GraphicsTest.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/GraphicsTest/GraphicsTest.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/u8x8/GraphicsTest/GraphicsTest.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/full_buffer/HelloWorld/HelloWorld.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/HelloWorld/HelloWorld.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/u8x8/HelloWorld/HelloWorld.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/examples/i2c_address_detect/i2c_address_detect.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/examples/i2c_readwrite/i2c_readwrite.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/examples/i2c_registers/i2c_registers.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/examples/i2corspi_register/i2corspi_register.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/full_buffer/IconMenu/IconMenu.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/IconMenu/IconMenu.ino
+/.pio/build/esp32-s3-devkitm-1/idedata.json
+/.pio/libdeps/esp32-s3-devkitm-1/integrity.dat
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit AHTX0/.github/ISSUE_TEMPLATE.md
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BMP280 Library/.github/ISSUE_TEMPLATE.md
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/.github/ISSUE_TEMPLATE.md
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/.github/ISSUE_TEMPLATE.md
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit SH110X/.github/ISSUE_TEMPLATE.md
+/.pio/libdeps/esp32-s3-devkitm-1/NTPClient/examples/IsTimeSet/IsTimeSet.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/Japanese/Japanese.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BMP280 Library/keywords.txt
+/.pio/libdeps/esp32-s3-devkitm-1/NTPClient/keywords.txt
+/.pio/libdeps/esp32-s3-devkitm-1/Time/keywords.txt
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/keywords.txt
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/Korean/Korean.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Time/library.json
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit AHTX0/library.properties
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BMP280 Library/library.properties
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/library.properties
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/library.properties
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit SH110X/library.properties
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit Unified Sensor/library.properties
+/.pio/libdeps/esp32-s3-devkitm-1/NTPClient/library.properties
+/.pio/libdeps/esp32-s3-devkitm-1/Time/library.properties
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/library.properties
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/LICENSE
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/LICENSE
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BMP280 Library/LICENSE.txt
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit Unified Sensor/LICENSE.txt
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit AHTX0/license.txt
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/license.txt
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit SH110X/license.txt
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/games/LittleRookChess/LittleRookChess.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/LoadFromSD/LoadFromSD.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/fontconvert/Makefile
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/fontconvert/makefonts.sh
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/MechCount/MechCount.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/u8x8/MessageBox/MessageBox.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/examples/mock_ili9341/mock_ili9341.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/mui.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/mui.h
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/mui_u8g2.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/mui_u8g2.h
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/mui/MUIBlink/MUIBlink.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/mui/MUICountDown/MUICountDown.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/mui/MUIInput1BtnBounce2/MUIInput1BtnBounce2.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/mui/MUIInput2BtnBounce2/MUIInput2BtnBounce2.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/mui/MUIInput3BtnBounce2/MUIInput3BtnBounce2.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/mui/MUIInput3BtnWithU8g2/MUIInput3BtnWithU8g2.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/mui/MUIInputSimpleRotary/MUIInputSimpleRotary.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/mui/MUIInputVersatileRotaryEncoder/MUIInputVersatileRotaryEncoder.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/mui/MUIMinimal/MUIMinimal.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/mui/MUIStopwatch/MUIStopwatch.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/MUIU8g2.h
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/mui/MUIWaveformBounce2/MUIWaveformBounce2.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/mui/MUIWaveformSimpleRotary/MUIWaveformSimpleRotary.ino
+/.pio/libdeps/esp32-s3-devkitm-1/NTPClient/NTPClient.cpp
+/.pio/libdeps/esp32-s3-devkitm-1/NTPClient/NTPClient.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit SH110X/examples/OLED_featherwing/OLED_featherwing.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/Org_01.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/Picopixel.h
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/PowerSaveTest/PowerSaveTest.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/PrintHelloWorld/PrintHelloWorld.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/PrintProgmem/PrintProgmem.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/full_buffer/PrintUTF8/PrintUTF8.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/PrintUTF8/PrintUTF8.ino
+/.pio/build/project.checksum
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit AHTX0/.github/PULL_REQUEST_TEMPLATE.md
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BMP280 Library/.github/PULL_REQUEST_TEMPLATE.md
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/.github/PULL_REQUEST_TEMPLATE.md
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/.github/PULL_REQUEST_TEMPLATE.md
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit SH110X/.github/PULL_REQUEST_TEMPLATE.md
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit AHTX0/README.md
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BMP280 Library/README.md
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/README.md
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/README.md
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit SH110X/README.md
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit Unified Sensor/README.md
+/.pio/libdeps/esp32-s3-devkitm-1/NTPClient/README.md
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/README.md
+/.pio/libdeps/esp32-s3-devkitm-1/Time/Readme.md
+/.pio/libdeps/esp32-s3-devkitm-1/Time/examples/Processing/SyncArduinoClock/readme.txt
+/.pio/libdeps/esp32-s3-devkitm-1/NTPClient/.github/workflows/report-size-deltas.yml
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/u8x8/Rotate90/Rotate90.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/full_buffer/ScreenShot/ScreenShot.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/ScrollingText/ScrollingText.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/full_buffer/SelectionList/SelectionList.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/SelectionList/SelectionList.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit Unified Sensor/examples/sensortest/sensortest.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/Serial/Serial.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit SH110X/examples/OLED_QTPY_SH1106/SH1106_128x64_i2c_QTPY/SH1106_128x64_i2c_QTPY.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit SH110X/examples/OLED_QTPY_SH1106/SH1106_128x64_SPi_QTPY/SH1106_128x64_SPi_QTPY.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit SH110X/examples/SH1107_128x128/SH1107_128x128.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/full_buffer/Shennong/Shennong.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/Shennong/Shennong.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/games/SpaceTrash/SpaceTrash.ino
+/.pio/libdeps/esp32-s3-devkitm-1/NTPClient/.github/workflows/spell-check.yml
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/examples/spi_modetest/spi_modetest.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/examples/spi_readwrite/spi_readwrite.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/examples/spi_register_bits/spi_register_bits.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit BusIO/examples/spi_registers/spi_registers.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit SH110X/splash.h
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/StateBufferLoop/StateBufferLoop.ino
+/.pio/libdeps/esp32-s3-devkitm-1/NTPClient/.github/workflows/sync-labels.yml
+/.pio/libdeps/esp32-s3-devkitm-1/Time/examples/Processing/SyncArduinoClock/SyncArduinoClock.pde
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/Terminal/Terminal.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/u8x8/Terminal/Terminal.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Time/Time.cpp
+/.pio/libdeps/esp32-s3-devkitm-1/Time/examples/TimeArduinoDue/TimeArduinoDue.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Time/examples/TimeGPS/TimeGPS.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Time/TimeLib.h
+/.pio/libdeps/esp32-s3-devkitm-1/Time/examples/TimeNTP/TimeNTP.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Time/examples/TimeNTP_ENC28J60/TimeNTP_ENC28J60.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Time/examples/TimeNTP_ESP8266WiFi/TimeNTP_ESP8266WiFi.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Time/examples/TimeRTC/TimeRTC.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Time/examples/TimeRTCLog/TimeRTCLog.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Time/examples/TimeRTCSet/TimeRTCSet.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Time/examples/TimeSerial/TimeSerial.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Time/examples/TimeSerialDateStrings/TimeSerialDateStrings.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Time/examples/TimeTeensy3/TimeTeensy3.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/Tiny3x3a2pt7b.h
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit GFX Library/Fonts/TomThumb.h
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8g2.h
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8g2_arc.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8g2_bitmap.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8g2_box.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8g2_buffer.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8g2_button.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8g2_circle.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8g2_cleardisplay.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8g2_d_memory.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8g2_d_setup.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8g2_font.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8g2_fonts.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8g2_hvline.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8g2_input_value.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8g2_intersection.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8g2_kerning.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8g2_line.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8g2_ll_hvline.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8g2_message.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8g2_polygon.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8g2_selection_list.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8g2_setup.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/U8g2lib.cpp
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/U8g2lib.h
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/full_buffer/U8g2Logo/U8g2Logo.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/U8g2Logo/U8g2Logo.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8log.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8log_u8g2.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8log_u8x8.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8.h
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_8x8.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_byte.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_cad.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_capture.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_a2printer.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ch1120.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_gp1247ai.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_gp1287ai.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_gp1294ai.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_gu800.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_hd44102.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_il3820_296x128.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ist3020.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ist3088.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ist7920.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ks0108.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_lc7981.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ld7032_60x32.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ls013b7dh03.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_max7219.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_pcd8544_84x48.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_pcf8812.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_pcf8814_hx1230.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_s1d15e06.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_s1d15300.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_s1d15721.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_sbn1661.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_sed1330.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_sh1106_64x32.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_sh1106_72x40.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_sh1107.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_sh1108.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_sh1122.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1305.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1306_48x64.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1306_64x32.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1306_64x48.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1306_72x40.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1306_96x16.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1306_96x40.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1306_128x32.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1306_128x64_noname.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1306_2040x16.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1309.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1312.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1315_128x64_noname.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1316.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1317.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1318.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1320.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1322.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1325.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1326.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1327.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1329.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1362.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1363.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1606_172x72.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_ssd1607_200x200.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_st7301.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_st7302.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_st7305.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_st7511.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_st7528.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_st7539.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_st7565.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_st7567.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_st7571.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_st7586s_erc240160.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_st7586s_jlx320160.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_st7586s_jlx384160.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_st7586s_md240128.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_st7586s_s028hn118a.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_st7586s_ymc240160.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_st7588.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_st7920.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_st75160.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_st75161.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_st75256.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_st75320.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_t6963.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_uc1601.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_uc1604.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_uc1608.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_uc1609.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_uc1610.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_uc1611.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_uc1617.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_uc1628.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_uc1638.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_uc1698.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_uc1701_dogs102.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_d_uc1701_mini12864.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_debounce.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_display.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_fonts.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_gpio.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_input_value.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_message.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_selection_list.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_setup.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_string.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_u8toa.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/clib/u8x8_u16toa.c
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/U8x8lib.cpp
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/src/U8x8lib.h
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/full_buffer/UpdateArea/UpdateArea.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/UpdatePartly/UpdatePartly.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/full_buffer/Weather/Weather.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/Weather/Weather.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/XBM/XBM.ino
+/.pio/libdeps/esp32-s3-devkitm-1/U8g2/examples/page_buffer/XORTest/XORTest.ino
+/.pio/libdeps/esp32-s3-devkitm-1/Adafruit Unified Sensor/.gitignore
