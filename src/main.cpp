@@ -32,9 +32,9 @@ void oled_Display(tm time, byte page, unsigned long durin);
 void setup() {
     const unsigned long start = millis();
     Init_System();
-    Init_Wifi();
-    Init_Senser();
     Init_Display();
+    Init_Senser();
+    Init_Wifi();
     Init_Time();
     configTime(8 * 3600,
                0,
@@ -46,9 +46,9 @@ void setup() {
 
     Temperature = bmp.readTemperature();
     Pressure = bmp.readPressure() / 1000.0; // 默认千帕
-    Serial2.println("%.2f *C %.2f kPa");
-    const unsigned long end = millis();
-    Serial2.printf("ALL thing OK,taking %lu MS", end - start);
+    Serial2.printf("Temp is: %.2f *C  Pressure is: %.2f kPa",Temperature,Pressure);
+    Serial2.println();
+    Serial2.printf("ALL thing OK,taking %lu MS", millis() - start);
 }
 
 

@@ -17,7 +17,7 @@ const int txPin = 17;
 
 inline void Init_System() {
     Serial.begin(9600);
-    Serial2.begin(9600,SERIAL_8N1,rxPin,txPin);
+    Serial2.begin(115200,SERIAL_8N1,rxPin,txPin);
     pinMode(ON_BOARD_LED,OUTPUT);
     Serial2.println("Sys OK");
 }
@@ -25,30 +25,57 @@ inline void Init_System() {
 inline void Init_Senser() {
     if (!bmp.begin()) {
         Serial2.printf("Fail to start BMP20");
+        while (true) {
+            u8g2.clearBuffer();
+            u8g2.setFont(u8g2_font_wqy12_t_gb2312);
+            u8g2.setCursor(24,20);
+            u8g2.println("无法初始化BMP280，检查连线");
+            u8g2.sendBuffer();
+        }
     }
     if (! aht.begin()) {
         Serial2.println("Could not find AHT? Check wiring");
+        while (true) {
+            u8g2.clearBuffer();
+            u8g2.setFont(u8g2_font_wqy12_t_gb2312);
+            u8g2.setCursor(24,20);
+            u8g2.println("无法初始化AHT20，检查连线");
+            u8g2.sendBuffer();
+        }
     }
     bmp.setSampling(Adafruit_BMP280::MODE_NORMAL, /* Operating Mode. */
                     Adafruit_BMP280::SAMPLING_X2, /* Temp. oversampling */
                     Adafruit_BMP280::SAMPLING_X16, /* Pressure oversampling */
                     Adafruit_BMP280::FILTER_X16, /* Filtering. */
                     Adafruit_BMP280::STANDBY_MS_500);
+    u8g2.clearBuffer();
+    u8g2.setFont(u8g2_font_wqy12_t_gb2312);
+    u8g2.setCursor(24,20);
+    u8g2.println("传感器初始化完成");
+    u8g2.sendBuffer();
     Serial2.println("Senser OK");
 }
 
 inline void Init_Wifi() {
     WiFiClass::mode(WIFI_STA);
     WiFi.begin(ssid, passwd);
-    Serial2.printf("Connecting");
+    Serial2.printf("WIFI %s Connecting",ssid);
     while (WiFiClass::status() != WL_CONNECTED) {
-        delay(150);
-        digitalWrite(ON_BOARD_LED,HIGH);
-        delay(150);
-        digitalWrite(ON_BOARD_LED,LOW);
+        static unsigned long current = millis();
+        static unsigned long now = 0;
+        if (millis() - now >= 300) {
+            digitalWrite(ON_BOARD_LED,!digitalRead(ON_BOARD_LED));
+            now = millis();
+            Serial2.print(".");
+        }
+        u8g2.clearBuffer();
+        u8g2.setFont(u8g2_font_unifont_t_gb2312b);
+        u8g2.setCursor(24,20);
+        u8g2.println("连接WIFI");
+        u8g2.sendBuffer();
     }
-    Serial2.println("");
-    Serial2.print("WiFi connected IP:");
+    Serial2.println();
+    Serial2.printf("WiFi connected. IP:");
     Serial2.print(WiFi.localIP());
     Serial2.println("");
 }
@@ -56,6 +83,11 @@ inline void Init_Wifi() {
 inline void Init_Display() {
     u8g2.begin();
     u8g2.enableUTF8Print();
+    u8g2.clearBuffer();
+    u8g2.setFont(u8g2_font_unifont_t_gb2312b);
+    u8g2.setCursor(24,20);
+    u8g2.println("欢迎");
+    u8g2.sendBuffer();
     Serial2.println("U8G2 OK");
 }
 #endif //UNTITLED_INIT_H
