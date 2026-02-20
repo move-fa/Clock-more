@@ -8,13 +8,12 @@
 #define NTP1  "ntp1.aliyun.com"
 #define NTP2  "ntp2.aliyun.com"
 #define NTP3  "ntp3.aliyun.com"
-#define FONT u8g2_font_wqy12_t_chinese2
 #define ON_BOARD_LED 48
 
-constexpr auto ssid = "TP-LINK_A67A";
-constexpr auto passwd = "0852wppu,.";
-constexpr auto rxPin = 16;
-constexpr auto txPin = 17;
+const char ssid[] = "TP-LINK_A67A";
+const char passwd[] = "0852wppu,.";
+const int rxPin = 16;
+const int txPin = 17;
 
 inline void Init_System() {
     Serial.begin(9600);
@@ -57,23 +56,6 @@ inline void Init_Wifi() {
 inline void Init_Display() {
     u8g2.begin();
     u8g2.enableUTF8Print();
-    u8g2.setFont(FONT);
     Serial2.println("U8G2 OK");
-}
-
-inline void Init_Time() {
-    time_t now;
-    char strftime_buf[64];
-    struct tm timeinfo{};
-
-    time(&now);
-    // 将时区设置为中国标准时间
-    setenv("TZ", "CST-8", 1);
-    tzset();
-
-    localtime_r(&now, &timeinfo);
-    strftime(strftime_buf, sizeof(strftime_buf), "%c", &timeinfo);
-    ESP_LOGI(TAG, "The current date/time in Shanghai is: %s", strftime_buf);  //时间的分辨率为 1S
-    Serial2.println("Time OK");
 }
 #endif //UNTITLED_INIT_H
